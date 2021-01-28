@@ -1,0 +1,10 @@
+{
+  "core": null,
+  "phpVersion": null,
+  "plugins": [
+    "."
+  ],
+  "config": {
+    "WP_DEBUG": true
+  }
+}

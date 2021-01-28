@@ -1,0 +1,16 @@
+{
+  "name": "theme-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "wp-env": "wp-env",
+    "start": "wp-env start && open http://localhost:8888",
+    "stop": "wp-env stop",
+    "clean": "wp-env clean all",
+    "destroy": "wp-env destroy",
+    "ja": "wp-env run cli wp core language install ja && wp-env run cli wp site switch-language ja"
+  },
+  "author": "",
+  "license": "ISC"
+}
